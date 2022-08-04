@@ -1,0 +1,14 @@
+out_dir = ./results
+data_dir = /home/junkanghu/Codes/NeRF/data/nerf_llff_data
+data_type = llff
+object = fern
+
+N_importance = 64
+N_batch_rays = 1024
+N_samples = 64
+N_iters = 200000
+
+llff_holdout = 8
+down_factor = 8
+noise_std = 1.
+lindisp = False
